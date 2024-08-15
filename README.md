@@ -8,6 +8,6 @@
 
 **Step-1: Data input**
 > 1. Data present in either of the two file formats: csv, xlsx should be fed as input. <br>
-> 2. If the input dataset is an excel file having more than one sheet, user is prompted with all the available sheets to select the dataset for analysis.
+> 2. If the input dataset is an excel file having more than one sheet, user is prompted with all the available sheets to enter the sheet containing the dataset for analysis.
 
 **step-2: Data Preprocessing**
