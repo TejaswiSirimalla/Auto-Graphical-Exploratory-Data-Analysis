@@ -6,4 +6,4 @@
 Pandas, Numpy, Matplotlib, Plotly, Bokeh, Scikit-Learn, Math, Statsmodels, OS, Warnings
 
 <h4>Methodology</h4>
-`Step-1`: Preprocessing of the given data
+> Step-1: Preprocessing of the given data
