@@ -10,7 +10,7 @@
 
 **Reference Dataset used** : `Raisin` dataset from University of California, Irvine's ML repository [Link](https://archive.ics.uci.edu/dataset/850/raisin)
 
-Given a dataset, a user tries to find patterns and build a model of interest over the data. Most of these models either fall under supervised or unsupervised ML. In this project, a user can perform graphical analysis over the given dataset with the intention of building a classifier or a regressor or for finding clusters in the data. This allows a user to perform a dedicated graphical analysis with ML task of interest. The aim is to let the user gain visual understanding of the overall dataset from the view of the user's ML task of interest. To achieve this, we have relied on Shannon's entropy and Information gain to select not more than 4 most relevant features guided by the user's ML task to provide a comprehensive Graphical analysis
+Given a dataset, a user tries to find patterns and build a model of interest over the data. Most of these models either fall under supervised or unsupervised ML. In this project, a user can perform graphical analysis over the given dataset with the intention of building a classifier or a regressor or for finding clusters in the data. This allows a user to perform a dedicated graphical analysis with the ML task of interest. The aim is to let the user gain visual understanding of the overall dataset from the view of the user's ML task of interest. To achieve this, we have relied on Shannon's entropy and Information gain to select not more than 4 most relevant features guided by the user's ML task.
 
 
 **Screenshots**:
