@@ -4,7 +4,12 @@
 
 **Libraries Used**: `pandas`, `numpy`, `matplotlib`, `plotly`, `bokeh`, `scikit-learn`, `math`, `statsmodels`, `os`, `warnings`
 
+**Input**
+> 1. Data present in either of the two file formats: csv, xlsx should be fed as input. <br>
+> 2. If the input dataset is an excel file having more than one sheet, user is prompted with all the available sheets to enter the sheet containing the dataset for analysis.
+
 **Reference Dataset used** : `Raisin` dataset from University of California's ML repository [Link](https://archive.ics.uci.edu/dataset/850/raisin)
+
 
 <!--
 <h3> Methodology </h3>
