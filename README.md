@@ -1,4 +1,4 @@
-<h3 align='center'>Auto Graphical Exploratory Data Analysis</h3>
+![image](https://github.com/user-attachments/assets/d32750d4-be72-4620-b9a3-cdb28bc980fd)<h3 align='center'>Auto Graphical Exploratory Data Analysis</h3>
 
 **Auto Graphical Exploratory Data Analysis** is an automated system designed to generate comprehensive graphical analysis of datasets, facilitating users in understanding the underlying structures and patterns in data, focused towards machine learning tasks such as classification, regression, and clustering.
 
@@ -97,8 +97,32 @@ to include or exclude. Joint distribution plots serve as a valuable tool for gai
 > 3d scatter plots provide many ways of viewing the scattered data items from a holistic perspective.
 > One major addition is clear resolution of overlapping data items. 3D scatter plots provide a comprehensive view of data by adding a third dimension, which helps in clearly
 resolving overlapping points and revealing hidden patterns and relationships that may be missed in 2D views. This enhanced perspective aids in distinguishing clusters, detecting trends, and identifying outliers more effectively. This additional dimension enhances the clarity of data visualization, making it easier to understand complex relationships and improve overall data analysis.
-    
-26. 
+
+When the user intends to build a Regressor to predict `Area` attribute or dependent column, the project suggests that the following are the 4 most relevant features:
+1.ConvexArea
+2.Extent
+3.Class
+4. Perimeter
+
+1. Following are histograms for the above features
+   ![image](https://github.com/user-attachments/assets/20797dd7-fb4d-450b-8348-3ca6b9d9aa64)
+
+2. Following are the 2D scatter plots for the most 4 relevant features
+   ![image](https://github.com/user-attachments/assets/be53003b-1a8d-4033-865f-d63d9a8dd51b)
+   ![image](https://github.com/user-attachments/assets/f68b3102-b583-4bd8-a3ec-8e971d3629eb)
+
+A linear regressor could be possibly drawn for both the features ConvexArea and Perimeter
+
+3. Since the all of the relevant features are continuous besides class variable, Pie-Chart is only relevant for Class attribute. Following is a pie-chart for Class variable representing a balanced dataset
+   ![image](https://github.com/user-attachments/assets/fab024c3-b0d6-44a0-bcb2-d11346ce0cab)
+
+4. Following are the 3d Scatter plots for the most 4 relevant features considering a pair of features at a given time
+![image](https://github.com/user-attachments/assets/79605860-42c3-4f4e-ab95-8315504f5ab4)
+
+Above 3d plots help us understand that the presence of class variable necessiates the requirement of two line regressors while the absence of class feature results a 2d plane regressor.
+
+
+
 
 <!--
 <h3> Methodology </h3>
