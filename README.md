@@ -83,16 +83,16 @@ When the user intends to build a classifier over `Class` dependent column, the p
 to include or exclude. Joint distribution plots serve as a valuable tool for gaining a deeper understanding of data structures and improving the accuracy and robustness of machine learning models.
 
 18. Following is a 3d scatter plot between Perimeter, Extent and MajorAxisLength
-    ![image](https://github.com/user-attachments/assets/0ee8c662-45e1-46b8-b2de-38ccfc657a65)
+    ![image](https://github.com/user-attachments/assets/f22eb134-0106-4713-b977-56eeba69ea0d)
 
 20. Following is a 3d scatter plot for the features: MajorAxisLength, Perimeter and Eccentricity
-    ![image](https://github.com/user-attachments/assets/e00e2ed2-6246-48cd-b316-05f8aa0cfb3a)
+    ![image](https://github.com/user-attachments/assets/f4c66684-5af7-48bd-8166-06db95f812fe)
 
 22. Following is a 3d scatter plot for the features: MajorAxisLength, Extent and Eccentricity
-   ![image](https://github.com/user-attachments/assets/c5c4a129-c382-4fe7-9156-8b5eb080594b)
-    
+    ![image](https://github.com/user-attachments/assets/dec3774f-c30f-4316-8db6-b3fdad524486)
+
 24. Following is a 3d scatter plot for the features: Extent, Perimeter and Eccentricity
-   ![image](https://github.com/user-attachments/assets/2691f4d4-fdfc-45f2-8477-ca153062287b)
+   ![image](https://github.com/user-attachments/assets/a77075c3-6571-4cea-932a-0aeb5031525a)
 
 > 3d scatter plots provide many ways of viewing the scattered data items from a holistic perspective.
 > One major addition is clear resolution of overlapping data items. 3D scatter plots provide a comprehensive view of data by adding a third dimension, which helps in clearly
