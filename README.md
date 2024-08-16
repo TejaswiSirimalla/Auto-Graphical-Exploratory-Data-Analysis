@@ -122,6 +122,21 @@ A linear regressor could be possibly drawn for both the features ConvexArea and 
 Above 3d plots help us understand that the presence of class variable necessiates the requirement of two line regressors while the absence of class feature results a 2d plane regressor.
 
 
+When the user intends to find clusters, we find relevant categorical variables and see if the entire dataset can be classified with respect to these categorical variables. This helps us capture intrinsic groups of data which would otherwise be not possible.
+Since the only categorical independent variable is `Class` attribute, the output will be similar to the output of the classification with `Class` as dependent variable.
+We also attempt to identify inherent groups in the data by not merely performing feature selection, but by considering to project the entire data into 1, 2 and 3 dimensions.
+We use PCA and t-SNE to study such projected data for presence of any of the clusters.
+
+1. Following represents use of PCA and tSNE dimensionality reduction approaches to determine the groupings in the given dataset by projecting the data to one dimension.
+   ![image](https://github.com/user-attachments/assets/4f0022b4-1c39-4cc8-9fc8-9841781dc2a2)
+
+2. Following represents use of PCA and tSNE dimensionality reduction approaches to determine the groupings in the given dataset by projecting the data to two dimensions.
+   ![image](https://github.com/user-attachments/assets/9a0d6900-513d-45c8-bd83-c653a0418176)
+
+3. Following represents use of PCA and tSNE dimensionality reduction approaches to determine the groupings in the given dataset by projecting the data to three dimensions.
+   ![image](https://github.com/user-attachments/assets/b3a9bd75-c4af-4994-96d0-0784036f194b)
+
+To further this analysis, clustering algorithms can be applied to group data points based on their similarities, with methods such as K-means, hierarchical clustering, DBSCAN, etc.
 
 
 <!--
