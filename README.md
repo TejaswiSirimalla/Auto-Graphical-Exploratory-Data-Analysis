@@ -69,6 +69,36 @@ When the user intends to build a classifier over `Class` dependent column, the p
 > This could help a user infer the distribution of data items in these two feature space.
 > Since the classification boundary is subjective to user for imagination, the user may intend to draw a decision boundary at a place which need not be true. Hence we have introduced the concept of `classifiable pair plots`. These plots clearly mention where the classification boundary can be drawn. This is essential as the plotting of one class of data over other may hinder users from having a holistic view of the spread of the dataitems in the feature space. The classifiable pair plots considers a classification boundary considering all the data items. This approach ensures a clearer understanding of data distribution and minimizes the risk of subjective misinterpretation, providing a more accurate basis for defining and evaluating classification models.
 
+17. Following are the joint distribution plots between pairs of features
+![image](https://github.com/user-attachments/assets/e28ab2e6-ab49-456b-82a4-39d0b57ef230)
+
+> Joint distribution plots are between a pair of features.
+> These plots specifically help us locate the region with highest density of points and infer whether these density points are closer. If they are overlapping, the user can then infer that classification will be an inaccurate one and considers projecting the data to a higher feature-space.
+> If the density points are not overlapping, then accuracy of classification can be higher.
+> Joint distribution plots are useful for examining the relationship between two variables, revealing patterns such as clusters or outliers.
+> By visualizing these plots, you can identify areas where data points converge, which can indicate regions of high density or potential class overlap.
+> These insights help determine whether dimensionality reduction or feature transformation might be necessary to enhance classification performance. For instance, if data points are heavily overlapping, exploring techniques like PCA or t-SNE for better separation could be beneficial.
+> Joint distribution plots can also reveal the presence of outliers or anomalies that might affect the overall data analysis and model performance. They help in assessing the effectiveness of different transformations or scaling methods by showing how these changes impact data distribution and separation.
+> By visually comparing joint distributions, users can also evaluate the effectiveness of their preprocessing steps and make informed decisions about which features
+to include or exclude. Joint distribution plots serve as a valuable tool for gaining a deeper understanding of data structures and improving the accuracy and robustness of machine learning models.
+
+18. Following is a 3d scatter plot between Perimeter, Extent and MajorAxisLength
+    ![image](https://github.com/user-attachments/assets/0ee8c662-45e1-46b8-b2de-38ccfc657a65)
+
+20. Following is a 3d scatter plot for the features: MajorAxisLength, Perimeter and Eccentricity
+    ![image](https://github.com/user-attachments/assets/e00e2ed2-6246-48cd-b316-05f8aa0cfb3a)
+
+22. Following is a 3d scatter plot for the features: MajorAxisLength, Extent and Eccentricity
+   ![image](https://github.com/user-attachments/assets/c5c4a129-c382-4fe7-9156-8b5eb080594b)
+    
+24. Following is a 3d scatter plot for the features: Extent, Perimeter and Eccentricity
+   ![image](https://github.com/user-attachments/assets/2691f4d4-fdfc-45f2-8477-ca153062287b)
+
+> 3d scatter plots provide many ways of viewing the scattered data items from a holistic perspective.
+> One major addition is clear resolution of overlapping data items. 3D scatter plots provide a comprehensive view of data by adding a third dimension, which helps in clearly
+resolving overlapping points and revealing hidden patterns and relationships that may be missed in 2D views. This enhanced perspective aids in distinguishing clusters, detecting trends, and identifying outliers more effectively. This additional dimension enhances the clarity of data visualization, making it easier to understand complex relationships and improve overall data analysis.
+    
+26. 
 
 <!--
 <h3> Methodology </h3>
